@@ -1,0 +1,9 @@
+<h1>Hello World</h1>
+
+<p>
+    Digite o seu nome: <br>
+    <input type="text" [(ngModel)]="nome"> 
+</p>
+<p *ngIf="nome">
+    Hello World, {{ nome }}!
+</p>
