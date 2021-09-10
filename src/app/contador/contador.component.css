@@ -1,0 +1,25 @@
+div {
+  border-top: 2px dashed greenyellow;
+}
+
+p {
+  font-size: x-large;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(20, 20, 20);;
+  color: greenyellow;
+  font-size: x-large;
+  padding: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: rgb(20, 20, 20);
+  border: 2px dashed rgb(20, 20, 20);
+}
+

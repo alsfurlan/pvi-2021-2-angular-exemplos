@@ -3,7 +3,7 @@
 <p>
     Digite o seu nome: <br>
     <!-- <input type="text" [(ngModel)]="nome"> -->
-    <input type="text" [value]="nome" (keyup)="atualizaNome($event)"> 
+    <input class="border-default" type="text" [value]="nome" (keyup)="atualizaNome($event)">
 </p>
 <p *ngIf="nome">
     Hello World, {{ nome }}!

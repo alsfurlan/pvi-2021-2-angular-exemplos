@@ -4,3 +4,7 @@ body {
   background-color: rgb(20, 20, 20);
   color: greenyellow
 }
+
+.border-default {
+  border: 2px dashed greenyellow;
+}

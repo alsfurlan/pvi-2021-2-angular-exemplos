@@ -15,7 +15,6 @@ input {
   font-family: "Courier New", Courier, monospace;
   color: greenyellow;
   background: rgb(20, 20, 20);
-  border: 2px dashed greenyellow;
 }
 
 input:focus{
