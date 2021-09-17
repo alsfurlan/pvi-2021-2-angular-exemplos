@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { DataHoraComponent } from './data-hora/data-hora.component';
 import { ContadorComponent } from './contador/contador.component';
+import { LivrosComponent } from './livros/livros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
     DataHoraComponent,
-    ContadorComponent
+    ContadorComponent,
+    LivrosComponent
   ],
   imports: [
     BrowserModule,

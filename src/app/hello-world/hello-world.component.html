@@ -1,10 +1,14 @@
-<h1>Hello World</h1>
-
-<p>
-    Digite o seu nome: <br>
+<section>
+  <h1>Hello World</h1>
+  <p>
+    Digite o seu nome: <br />
     <!-- <input type="text" [(ngModel)]="nome"> -->
-    <input class="border-default" type="text" [value]="nome" (keyup)="atualizaNome($event)">
-</p>
-<p *ngIf="nome">
-    Hello World, {{ nome }}!
-</p>
+    <input
+      class="border-default"
+      type="text"
+      [value]="nome"
+      (keyup)="atualizaNome($event)"
+    />
+  </p>
+  <p *ngIf="nome">Hello World, {{ nome }}!</p>
+</section>

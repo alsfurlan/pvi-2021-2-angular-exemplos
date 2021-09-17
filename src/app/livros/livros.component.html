@@ -1,0 +1,10 @@
+<section>
+  <h1>Livros</h1>
+  <ul>
+    <!-- let variavel of array -->
+    <li *ngFor="let livro of livros">
+      <!-- {{ livro | json }} -->
+      {{ livro.titulo }} - <em> {{ livro.autor }} </em>
+    </li>
+  </ul>
+</section>

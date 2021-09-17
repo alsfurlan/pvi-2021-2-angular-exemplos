@@ -1,0 +1,20 @@
+section {
+  padding: 3rem;
+  border-top: 2px dashed greenyellow;
+  text-align: center;
+  border-bottom: 2px dashed greenyellow;
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+li {
+  font-size: x-large;
+}
+
